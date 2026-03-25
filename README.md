@@ -44,11 +44,6 @@ run.py
 
 	http://127.0.0.1:8000
 
-## API
-
-- Health: GET /api/v1/health
-- Plan: POST /api/v1/plan
-
 Example request body:
 
 {
@@ -60,14 +55,3 @@ Example request body:
   "budget_currency": "INR",
   "style": "luxury"
 }
-
-## Environment
-
-Optional .env keys:
-
-- APP_NAME
-- ENVIRONMENT
-- DEBUG
-- HOST
-- PORT
-
