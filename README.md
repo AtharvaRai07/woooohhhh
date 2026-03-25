@@ -1,6 +1,6 @@
-# Travel Concierge Web App (FastAPI)
+# Travel Web App 
 
-Production-style FastAPI starter for a premium travel planning website.
+Production-style FastAPI travel website
 
 ## Highlights
 
