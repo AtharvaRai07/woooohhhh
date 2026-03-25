@@ -36,7 +36,11 @@ run.py
 
 	python run.py
 
-4. Open:
+4. Create .env file and add your secrets:
+   - RAPID_API_SECRET = ******
+   - FOURSQUARE_API_KEY = *****
+
+5. Open:
 
 	http://127.0.0.1:8000
 
