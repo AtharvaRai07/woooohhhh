@@ -36,11 +36,16 @@ run.py
 
 	python run.py
 
-4. Create .env file and add your secrets:
-   - RAPID_API_SECRET = ******
-   - FOURSQUARE_API_KEY = *****
+4. Create your own API keys (do not reuse someone else's keys):
+  - RapidAPI key: create an account at https://rapidapi.com and subscribe to the APIs used by this app.
+  - Groq API key: create an account at https://console.groq.com and generate an API key.
 
-5. Open:
+5. Create a `.env` file in the project root and add your keys:
+  - RAPIDAPI_KEY=your_rapidapi_key
+  - GROQ_API_KEY=your_groq_api_key
+  - FOURSQUARE_API_KEY=your_foursquare_api_key
+
+6. Open:
 
 	http://127.0.0.1:8000
 
